@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+html, body .full-height{
+	background-color: #e9ea91;
+	height: 100%;
+}
+#imgcross {
+	background-color: white;
+}
+#croix {
+	height: 10%;
+	width: 10%;
+	margin-top: 100px;
+}
+
+img {
+	display: flex;
+}
+.centrer{
+	text-align: center;
+}
+.block{
+	display: flex;
+}
+.textzone{
+	font-family: 'Arvo', serif;
+	/*border:5px solid black;*/
+	margin-left: 50%;
+	margin-top: -30%;
+	text-align: justify;
+    text-justify: inter-word;
+    box-sizing: 50px;
+
+}
+.col{
+	flex-direction: column;
+	flex:2;
+	/*border: 5px solid blue;*/
+}
+#corps{
+	margin-top: 50px;
+	margin-left: 524px;
+}
+#circle1 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 50px;  
+ margin-top: -410px;
+ margin-left: 520px;
+ opacity: 0.7;
+}
+
+#circle1:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+#circle2 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 50px;  
+ margin-top: 56px;
+ margin-left: 628px;
+ opacity: 0.7;
+}
+#circle2:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+#circle3 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 50px;  
+ margin-top: 0px;
+ margin-left: 515px;
+ opacity: 0.7;
+}
+#circle3:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+#circle4 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 50px;  
+ margin-top: 0px;
+ margin-left: 610px;
+ opacity: 0.7;
+}
+#circle4:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+#circle5 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 50px;  
+ margin-top: 35px;
+ margin-left: 550px;
+ opacity: 0.7;
+}
+#circle5:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+#circle6 {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(70,70,70);
+ border-radius: 100%;  
+ margin-top: 65px;
+ margin-left: 590px;
+ opacity: 0.7;
+}
+#circle6:hover{
+	background-color: red;
+	opacity: 0.7;
+}
+footer {
+	height: 15%;
+	width: 100%;
+	bottom:0;
+	position: absolute;
+	text-align: right;
+	background-color: gray;
+}
